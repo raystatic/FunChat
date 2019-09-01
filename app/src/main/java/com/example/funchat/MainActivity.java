@@ -57,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()){
                                         showToast("User registered : "+mAuth.getCurrentUser());
+                                        startActivity(new Intent(MainActivity.this,ChatActivity.class));
+                                        finish();
                                     }else{
                                         showToast("User registration failed!"+task.getException());
                                     }

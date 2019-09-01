@@ -57,6 +57,8 @@ public class LoginActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()){
                                         showToast("User Login successfully : "+mAuth.getCurrentUser());
+                                        startActivity(new Intent(LoginActivity.this,ChatActivity.class));
+                                        finish();
                                     }else{
                                         showToast("User Login failed!"+task.getException());
                                     }

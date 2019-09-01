@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message will be there"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/chat_adapter_msg"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chat_adapter_msg"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rahul9650ray@gmail.com"
+            android:id="@+id/email_adapter_chat"
+            android:textColor="#fff"
+            android:textSize="14sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01-09-2019 15:00:56"
+                android:id="@+id/time_adapter_chat"
+                android:layout_toRightOf="@+id/email_adapter_chat"
+                android:layout_marginLeft="10dp"
+                android:textColor="#fff"
+                android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
