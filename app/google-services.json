@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1075413880802",
+    "firebase_url": "https://funchat-1dc05.firebaseio.com",
+    "project_id": "funchat-1dc05",
+    "storage_bucket": "funchat-1dc05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075413880802:android:1f8d45b7d8d86942",
+        "android_client_info": {
+          "package_name": "com.example.funchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075413880802-5askbn57e0pkibi3avgpbdi2kr6oaje4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.funchat",
+            "certificate_hash": "be4d6fba1dbc5ec247381fb3602e450bc0ef59a6"
+          }
+        },
+        {
+          "client_id": "1075413880802-cj9v499ab9jrlbk9lnodn89mbfp92imi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYogUyOw-fPLHM8ovJox0mK3tT516mugo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075413880802-cj9v499ab9jrlbk9lnodn89mbfp92imi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
